@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D12A76B22FBB43B00EE24A9 /* GuideCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D12A76A22FBB43B00EE24A9 /* GuideCollectionViewController.m */; };
+		8D12A76F22FBBC3300EE24A9 /* GuidCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D12A76D22FBBC3300EE24A9 /* GuidCollectionViewCell.m */; };
+		8D12A77022FBBC3300EE24A9 /* GuidCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D12A76E22FBBC3300EE24A9 /* GuidCollectionViewCell.xib */; };
 		8D23F83A22F4288C00984FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D23F83922F4288C00984FF1 /* Assets.xcassets */; };
+		8D316FD222F9723B001F49A1 /* NetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D316FD122F9723B001F49A1 /* NetWorkTool.m */; };
 		8D6ECFBF22F7BA8800121478 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6ECFBD22F7BA8800121478 /* main.m */; };
 		8D6ECFC022F7BA8800121478 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6ECFBE22F7BA8800121478 /* AppDelegate.m */; };
 		8D6ECFC722F7BCF000121478 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6ECFC522F7BCF000121478 /* LoginViewController.m */; };
@@ -43,12 +47,23 @@
 		8D6ED03C22F8002000121478 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6ED03B22F8002000121478 /* SecondViewController.m */; };
 		8D6ED04122F800A900121478 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6ED04022F800A900121478 /* ThreeViewController.m */; };
 		8D6ED04422F800B600121478 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6ED04322F800B600121478 /* FourViewController.m */; };
+		DEDC3A37DD1F36B770275666 /* libPods-OC.Tool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E43A0816ECF4523ECD60C6D /* libPods-OC.Tool.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37AB7C262E87D5214F47FACD /* Pods-OC.Tool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OC.Tool.release.xcconfig"; path = "Target Support Files/Pods-OC.Tool/Pods-OC.Tool.release.xcconfig"; sourceTree = "<group>"; };
+		5E43A0816ECF4523ECD60C6D /* libPods-OC.Tool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OC.Tool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D12A76922FBB43B00EE24A9 /* GuideCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuideCollectionViewController.h; sourceTree = "<group>"; };
+		8D12A76A22FBB43B00EE24A9 /* GuideCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuideCollectionViewController.m; sourceTree = "<group>"; };
+		8D12A76C22FBBC3300EE24A9 /* GuidCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuidCollectionViewCell.h; sourceTree = "<group>"; };
+		8D12A76D22FBBC3300EE24A9 /* GuidCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuidCollectionViewCell.m; sourceTree = "<group>"; };
+		8D12A76E22FBBC3300EE24A9 /* GuidCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuidCollectionViewCell.xib; sourceTree = "<group>"; };
 		8D23F82D22F4288B00984FF1 /* OC.Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OC.Tool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D23F83922F4288C00984FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D23F83E22F4288C00984FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D316FD022F9723B001F49A1 /* NetWorkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkTool.h; sourceTree = "<group>"; };
+		8D316FD122F9723B001F49A1 /* NetWorkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkTool.m; sourceTree = "<group>"; };
+		8D316FD322F973B7001F49A1 /* NetApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetApi.h; sourceTree = "<group>"; };
 		8D6ECFBC22F7BA8800121478 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D6ECFBD22F7BA8800121478 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D6ECFBE22F7BA8800121478 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -121,6 +136,7 @@
 		8D6ED04022F800A900121478 /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
 		8D6ED04222F800B600121478 /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
 		8D6ED04322F800B600121478 /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		BD452C2EB088E37DD23D7380 /* Pods-OC.Tool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OC.Tool.debug.xcconfig"; path = "Target Support Files/Pods-OC.Tool/Pods-OC.Tool.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,17 +144,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEDC3A37DD1F36B770275666 /* libPods-OC.Tool.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87A701C48E69044256A4D984 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E43A0816ECF4523ECD60C6D /* libPods-OC.Tool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D12A76822FBB41D00EE24A9 /* GuidePage(引导页) */ = {
+			isa = PBXGroup;
+			children = (
+				8D12A76922FBB43B00EE24A9 /* GuideCollectionViewController.h */,
+				8D12A76A22FBB43B00EE24A9 /* GuideCollectionViewController.m */,
+				8D12A76C22FBBC3300EE24A9 /* GuidCollectionViewCell.h */,
+				8D12A76D22FBBC3300EE24A9 /* GuidCollectionViewCell.m */,
+				8D12A76E22FBBC3300EE24A9 /* GuidCollectionViewCell.xib */,
+			);
+			path = "GuidePage(引导页)";
+			sourceTree = "<group>";
+		};
 		8D23F82422F4288B00984FF1 = {
 			isa = PBXGroup;
 			children = (
 				8D23F82F22F4288B00984FF1 /* OC.Tool */,
 				8D23F82E22F4288B00984FF1 /* Products */,
+				AA6C0ECB09380B2211AE4D3B /* Pods */,
+				87A701C48E69044256A4D984 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,6 +199,16 @@
 			path = OC.Tool;
 			sourceTree = "<group>";
 		};
+		8D316FCF22F97227001F49A1 /* NetWorkTool(请求数据) */ = {
+			isa = PBXGroup;
+			children = (
+				8D316FD022F9723B001F49A1 /* NetWorkTool.h */,
+				8D316FD122F9723B001F49A1 /* NetWorkTool.m */,
+				8D316FD322F973B7001F49A1 /* NetApi.h */,
+			);
+			path = "NetWorkTool(请求数据)";
+			sourceTree = "<group>";
+		};
 		8D6ECFBA22F7BA8800121478 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +226,7 @@
 		8D6ECFBB22F7BA8800121478 /* Other-其他 */ = {
 			isa = PBXGroup;
 			children = (
+				8D316FCF22F97227001F49A1 /* NetWorkTool(请求数据) */,
 				8D6ED00422F7D31700121478 /* Category(分类) */,
 				8D6ECFFD22F7CF2E00121478 /* Configure_global(全局配置) */,
 				8D6ECFCA22F7C94500121478 /* Lib(第三方框架) */,
@@ -325,6 +375,7 @@
 		8D6ED00E22F7D53B00121478 /* Main-(入口) */ = {
 			isa = PBXGroup;
 			children = (
+				8D12A76822FBB41D00EE24A9 /* GuidePage(引导页) */,
 				8D6ED00F22F7D58400121478 /* Tabbar_Nav */,
 			);
 			path = "Main-(入口)";
@@ -407,6 +458,15 @@
 			path = "Four-(第四个页面)";
 			sourceTree = "<group>";
 		};
+		AA6C0ECB09380B2211AE4D3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD452C2EB088E37DD23D7380 /* Pods-OC.Tool.debug.xcconfig */,
+				37AB7C262E87D5214F47FACD /* Pods-OC.Tool.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -414,9 +474,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D23F84322F4288C00984FF1 /* Build configuration list for PBXNativeTarget "OC.Tool" */;
 			buildPhases = (
+				0737B182D263F93EBF37E2D9 /* [CP] Check Pods Manifest.lock */,
 				8D23F82922F4288B00984FF1 /* Sources */,
 				8D23F82A22F4288B00984FF1 /* Frameworks */,
 				8D23F82B22F4288B00984FF1 /* Resources */,
+				ACFE3D60122BA67782E40D06 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -466,12 +528,60 @@
 			files = (
 				8D6ECFC822F7BCF000121478 /* LoginViewController.xib in Resources */,
 				8D23F83A22F4288C00984FF1 /* Assets.xcassets in Resources */,
+				8D12A77022FBBC3300EE24A9 /* GuidCollectionViewCell.xib in Resources */,
 				8D6ED02B22F7DBC700121478 /* LICENSE in Resources */,
 				8D6ECFF422F7C96200121478 /* IQKeyboardManager.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0737B182D263F93EBF37E2D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OC.Tool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACFE3D60122BA67782E40D06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OC.Tool/Pods-OC.Tool-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OC.Tool/Pods-OC.Tool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D23F82922F4288B00984FF1 /* Sources */ = {
@@ -495,8 +605,10 @@
 				8D6ECFBF22F7BA8800121478 /* main.m in Sources */,
 				8D6ED04122F800A900121478 /* ThreeViewController.m in Sources */,
 				8D6ED00D22F7D3B300121478 /* UIColor+Color.m in Sources */,
+				8D12A76F22FBBC3300EE24A9 /* GuidCollectionViewCell.m in Sources */,
 				8D6ECFF922F7C96200121478 /* IQUIView+Hierarchy.m in Sources */,
 				8D6ED02C22F7DBC700121478 /* UIView+MBProgressHUD.m in Sources */,
+				8D12A76B22FBB43B00EE24A9 /* GuideCollectionViewController.m in Sources */,
 				8D6ECFF722F7C96200121478 /* IQUITextFieldView+Additions.m in Sources */,
 				8D6ECFFB22F7C96200121478 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				8D6ED00322F7D0B300121478 /* KOC_Control.m in Sources */,
@@ -504,6 +616,7 @@
 				8D6ED03422F7FA3B00121478 /* TableViewAnimationKit.m in Sources */,
 				8D6ECFF822F7C96200121478 /* IQUIScrollView+Additions.m in Sources */,
 				8D6ECFEE22F7C96200121478 /* IQTextView.m in Sources */,
+				8D316FD222F9723B001F49A1 /* NetWorkTool.m in Sources */,
 				8D6ED03522F7FA3B00121478 /* UITableView+XSAnimationKit.m in Sources */,
 				8D6ECFC022F7BA8800121478 /* AppDelegate.m in Sources */,
 				8D6ECFC722F7BCF000121478 /* LoginViewController.m in Sources */,
@@ -630,8 +743,10 @@
 		};
 		8D23F84422F4288C00984FF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD452C2EB088E37DD23D7380 /* Pods-OC.Tool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NJDUMK3XWM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -643,14 +758,16 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zydlks.OC-Tool";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8D23F84522F4288C00984FF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37AB7C262E87D5214F47FACD /* Pods-OC.Tool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NJDUMK3XWM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -662,7 +779,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zydlks.OC-Tool";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

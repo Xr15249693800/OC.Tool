@@ -446,4 +446,27 @@
     [mutStr replaceOccurrencesOfString:@"\n" withString:@"" options:NSLiteralSearch range:range2];
     return mutStr;
 }
++(void)animationWithIndex:(NSInteger)index viewController:(UIViewController *)vc
+{
+    NSMutableArray * tabbarbuttonArray = [NSMutableArray array];
+    for (UIView *tabBarButton in vc.tabBarController.tabBar.subviews) {
+        if ([tabBarButton isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
+            [tabbarbuttonArray addObject:tabBarButton];
+        }
+    }
+    CABasicAnimation*pulse = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
+    pulse.timingFunction= [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    //动画持续时间
+    pulse.duration = 0.15;
+    //重复次数
+    pulse.repeatCount= 1;
+    //设定这个属性为 YES 时,在它到达目的地之后,动画的返回到开始的值,代替了直接跳转到开始的值，过渡平滑
+    pulse.autoreverses= YES;
+    //动画初始值
+    pulse.fromValue= [NSNumber numberWithFloat:1.0];
+    //动画到达值
+    pulse.toValue= [NSNumber numberWithFloat:0.7];
+    [[tabbarbuttonArray[index] layer] addAnimation:pulse forKey:nil];
+}
+
 @end

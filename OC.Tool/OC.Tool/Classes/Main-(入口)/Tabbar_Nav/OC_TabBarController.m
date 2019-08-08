@@ -33,9 +33,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self setupChildVc:[HomeViewController new] title:@"首页" image:@"Home_Nor" selectedImage:@"Home_Sel"];
-    [self setupChildVc:[HomeViewController new] title:@"二页" image:@"BBS_Nor" selectedImage:@"BBS_Sel"];
-    [self setupChildVc:[HomeViewController new] title:@"三页" image:@"IWant_Nor" selectedImage:@"IWant_Sel"];
-    [self setupChildVc:[HomeViewController new] title:@"四页" image:@"Mine_Nor" selectedImage:@"Mine_Sel"];
+    [self setupChildVc:[SecondViewController new] title:@"二页" image:@"BBS_Nor" selectedImage:@"BBS_Sel"];
+    [self setupChildVc:[ThreeViewController new] title:@"三页" image:@"IWant_Nor" selectedImage:@"IWant_Sel"];
+    [self setupChildVc:[FourViewController new] title:@"四页" image:@"Mine_Nor" selectedImage:@"Mine_Sel"];
     
 }
 - (void)setupChildVc:(UIViewController *)vc title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage {

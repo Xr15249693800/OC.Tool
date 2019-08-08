@@ -176,6 +176,10 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (NSString *)convertToJsonData:(NSDictionary *)dict;
 
+/**
+ tabbar添加动画
+ */
++(void)animationWithIndex:(NSInteger)index viewController:(UIViewController *)vc;
 
 @end
 

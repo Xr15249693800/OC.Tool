@@ -19,6 +19,8 @@
 #import "MBProgressHUD.h"
 #import "TableViewAnimationKit.h"
 #import "UIView+MBProgressHUD.h"
+#import "NetApi.h"
+#import "AFNetworking.h"
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
@@ -32,3 +34,4 @@
 #define kScreenBounds           [UIScreen mainScreen].bounds
 #define kWidth                  (kScreenBounds.size.width)
 #define kHeight                 (kScreenBounds.size.height)
+#define kiPhone_X           kHeight >= 736
