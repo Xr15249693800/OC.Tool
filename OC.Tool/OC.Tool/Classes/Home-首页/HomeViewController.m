@@ -7,11 +7,11 @@
 //
 
 #import "HomeViewController.h"
+#import "CyclePicView.h"
 
-static NSString * const reuseIdentifier = @"HomeCell";
-@interface HomeViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
-@property (nonatomic,strong)UICollectionView *collectionView;
-@property (nonatomic,strong)UICollectionViewFlowLayout *layout;
+@interface HomeViewController ()
+@property (nonatomic,strong)UIScrollView *mainScrollView;
+
 @end
 
 @implementation HomeViewController
@@ -21,46 +21,27 @@ static NSString * const reuseIdentifier = @"HomeCell";
 //    1.添加导航条
     [self.navigationItem setTitleView:[KOC_Control createNavigationNormalTitle:@"首页"]];
 // mainScrollerView
-    [self setupCollectionView];
-//    刷新页面
-
+    [self setupMainScrollView];
+//    广告位
+    [self setupCycleView];
+  
 }
+
 #pragma mark ======mainScrollerView======
--(void)setupCollectionView{
+-(void)setupMainScrollView{
     
-    [self.view addSubview:self.collectionView];
+    UIScrollView *mainScroller = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, kWidth, kHeight)];
+    [self.view addSubview:mainScroller];
+    mainScroller.backgroundColor = [UIColor redColor];
+    self.mainScrollView = mainScroller;
 }
-
-
-
-#pragma mark ======UICollectionViewDasoure======
-- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return 1;
-}
-- (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
+#pragma mark ======广告位======
+-(void)setupCycleView{
+    CyclePicView *cycleView = [CyclePicView creatCyclePicView];
+    [self.mainScrollView addSubview:cycleView];
+    cycleView.frame = CGRectMake(20, 10, kWidth - 40, 125);
+    cycleView.layer.masksToBounds = YES;
+    cycleView.layer.cornerRadius = 12.0;
     
-    return cell;
-}
-#pragma mark ======懒加载======
--(UICollectionViewFlowLayout *)layout
-{
-    if (!_layout) {
-        _layout = [[UICollectionViewFlowLayout alloc]init];
-        _layout.minimumInteritemSpacing = 0;
-        _layout.itemSize = self.view.bounds.size;
-    }
-    return _layout;
-}
--(UICollectionView *)collectionView
-{
-    if (!_collectionView) {
-        _collectionView = [[UICollectionView alloc]initWithFrame:self.view.bounds collectionViewLayout:self.layout];
-        _collectionView.backgroundColor = [UIColor redColor];
-        _collectionView.delegate = self;
-        _collectionView.dataSource = self;
-        [_collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
-    }
-    return _collectionView;
 }
 @end

@@ -7,5 +7,6 @@ target 'OC.Tool' do
 
 pod 'AFNetworking'
 pod 'MJRefresh'
-
+pod 'SDCycleScrollView'
+pod 'SDWebImage'
 end

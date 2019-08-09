@@ -10,6 +10,8 @@
 		8D12A76B22FBB43B00EE24A9 /* GuideCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D12A76A22FBB43B00EE24A9 /* GuideCollectionViewController.m */; };
 		8D12A76F22FBBC3300EE24A9 /* GuidCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D12A76D22FBBC3300EE24A9 /* GuidCollectionViewCell.m */; };
 		8D12A77022FBBC3300EE24A9 /* GuidCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D12A76E22FBBC3300EE24A9 /* GuidCollectionViewCell.xib */; };
+		8D23662522FD031F0015FF47 /* CyclePicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D23662422FD031F0015FF47 /* CyclePicView.m */; };
+		8D23662722FD03450015FF47 /* CyclePicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D23662622FD03450015FF47 /* CyclePicView.xib */; };
 		8D23F83A22F4288C00984FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D23F83922F4288C00984FF1 /* Assets.xcassets */; };
 		8D316FD222F9723B001F49A1 /* NetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D316FD122F9723B001F49A1 /* NetWorkTool.m */; };
 		8D6ECFBF22F7BA8800121478 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6ECFBD22F7BA8800121478 /* main.m */; };
@@ -58,6 +60,9 @@
 		8D12A76C22FBBC3300EE24A9 /* GuidCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuidCollectionViewCell.h; sourceTree = "<group>"; };
 		8D12A76D22FBBC3300EE24A9 /* GuidCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuidCollectionViewCell.m; sourceTree = "<group>"; };
 		8D12A76E22FBBC3300EE24A9 /* GuidCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuidCollectionViewCell.xib; sourceTree = "<group>"; };
+		8D23662322FD031F0015FF47 /* CyclePicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CyclePicView.h; sourceTree = "<group>"; };
+		8D23662422FD031F0015FF47 /* CyclePicView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CyclePicView.m; sourceTree = "<group>"; };
+		8D23662622FD03450015FF47 /* CyclePicView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CyclePicView.xib; sourceTree = "<group>"; };
 		8D23F82D22F4288B00984FF1 /* OC.Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OC.Tool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D23F83922F4288C00984FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D23F83E22F4288C00984FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -171,6 +176,24 @@
 			path = "GuidePage(引导页)";
 			sourceTree = "<group>";
 		};
+		8D23662122FD02EB0015FF47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D23662222FD030B0015FF47 /* CyclePics */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D23662222FD030B0015FF47 /* CyclePics */ = {
+			isa = PBXGroup;
+			children = (
+				8D23662322FD031F0015FF47 /* CyclePicView.h */,
+				8D23662422FD031F0015FF47 /* CyclePicView.m */,
+				8D23662622FD03450015FF47 /* CyclePicView.xib */,
+			);
+			path = CyclePics;
+			sourceTree = "<group>";
+		};
 		8D23F82422F4288B00984FF1 = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +264,7 @@
 		8D6ECFC122F7BCA000121478 /* Home-首页 */ = {
 			isa = PBXGroup;
 			children = (
+				8D23662122FD02EB0015FF47 /* View */,
 				8D6ED03722F8001300121478 /* HomeViewController.h */,
 				8D6ED03822F8001300121478 /* HomeViewController.m */,
 			);
@@ -526,6 +550,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D23662722FD03450015FF47 /* CyclePicView.xib in Resources */,
 				8D6ECFC822F7BCF000121478 /* LoginViewController.xib in Resources */,
 				8D23F83A22F4288C00984FF1 /* Assets.xcassets in Resources */,
 				8D12A77022FBBC3300EE24A9 /* GuidCollectionViewCell.xib in Resources */,
@@ -616,6 +641,7 @@
 				8D6ED03422F7FA3B00121478 /* TableViewAnimationKit.m in Sources */,
 				8D6ECFF822F7C96200121478 /* IQUIScrollView+Additions.m in Sources */,
 				8D6ECFEE22F7C96200121478 /* IQTextView.m in Sources */,
+				8D23662522FD031F0015FF47 /* CyclePicView.m in Sources */,
 				8D316FD222F9723B001F49A1 /* NetWorkTool.m in Sources */,
 				8D6ED03522F7FA3B00121478 /* UITableView+XSAnimationKit.m in Sources */,
 				8D6ECFC022F7BA8800121478 /* AppDelegate.m in Sources */,
