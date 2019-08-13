@@ -1,0 +1,51 @@
+//
+//  PrefixHeader.pch
+//  OC.Tool
+//
+//  Created by xueranit on 2019/8/5.
+//  Copyright © 2019 xr. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import <UIKit/UIKit.h>
+#import "KOC_Control.h"
+#import "UIColor+Color.h"
+#import "ATNavigationController.h"
+#import "OC_TabBarController.h"
+#import "OC_NavigationController.h"
+#import "UIView+SDAutoLayout.h"
+#import "LoginViewController.h"
+#import "MBProgressHUD.h"
+#import "TableViewAnimationKit.h"
+#import "UIView+MBProgressHUD.h"
+#import "NetApi.h"
+#import "AFNetworking.h"
+#import "MJRefresh.h"
+#import "UIView+Extension.h"
+#import "SDCycleScrollView.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+#define kApplication            [UIApplication sharedApplication]
+#define kKeyWindow              kApplication.keyWindow
+#define kNotificationCenter     [NSNotificationCenter defaultCenter]
+#define kDevice                 [UIDevice currentDevice]
+#define kBundle                 [NSBundle mainBundle]
+#define kRGBColor(r, g, b)      [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define kScreenBounds           [UIScreen mainScreen].bounds
+#define kWidth                  (kScreenBounds.size.width)
+#define kHeight                 (kScreenBounds.size.height)
+#define kiPhone_X               kHeight >= 736
+
+#define kIPHONE4                (kScreenBounds.size.height == 480)           // 设备4
+#define kIPHONE5                (kScreenBounds.size.height == 568)           // 设备5
+#define kIPHONE6S               (kScreenBounds.size.height == 667)           // 设备6  6s  7  高度
+#define kIPHONE6SP              (kScreenBounds.size.height == 736)           // 设备6p 6sp 7p 高度
+#define kIPHONEX                (kScreenBounds.size.height > 736)
+#define kStatusBarH             (CGFloat)(kIPHONEX?(44):(20))                // 状态栏高度
+#define kNavigationH            (CGFloat)(kIPHONEX?(88):(64))                // 状态栏和导航栏总高度
+#define kTabBarH                (CGFloat)(kIPHONEX?(49+34):(49))             // TabBar高度
+#define kBottomSafeHeight       (CGFloat)(kIPHONEX?(34):(0))                 // 底部安全区域远离高度
+#define kAPPBGCOLOR              [UIColor colorWithHexString:@"F7F7F7"]      //app的底层颜色
