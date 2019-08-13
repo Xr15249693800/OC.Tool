@@ -23,6 +23,7 @@
 #import "AFNetworking.h"
 #import "MJRefresh.h"
 #import "UIView+Extension.h"
+#import "SDCycleScrollView.h"
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
@@ -36,7 +37,7 @@
 #define kScreenBounds           [UIScreen mainScreen].bounds
 #define kWidth                  (kScreenBounds.size.width)
 #define kHeight                 (kScreenBounds.size.height)
-#define kiPhone_X           kHeight >= 736
+#define kiPhone_X               kHeight >= 736
 
 #define kIPHONE4                (kScreenBounds.size.height == 480)           // 设备4
 #define kIPHONE5                (kScreenBounds.size.height == 568)           // 设备5
@@ -47,3 +48,4 @@
 #define kNavigationH            (CGFloat)(kIPHONEX?(88):(64))                // 状态栏和导航栏总高度
 #define kTabBarH                (CGFloat)(kIPHONEX?(49+34):(49))             // TabBar高度
 #define kBottomSafeHeight       (CGFloat)(kIPHONEX?(34):(0))                 // 底部安全区域远离高度
+#define kAPPBGCOLOR              [UIColor colorWithHexString:@"F7F7F7"]      //app的底层颜色

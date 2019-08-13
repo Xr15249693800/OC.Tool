@@ -12,7 +12,7 @@
 #import "ThreeViewController.h" //第三个页面
 #import "FourViewController.h"
 
-@interface OC_TabBarController ()
+@interface OC_TabBarController ()<UITabBarControllerDelegate>
 
 @end
 
@@ -32,6 +32,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.delegate = self;
     [self setupChildVc:[HomeViewController new] title:@"首页" image:@"Home_Nor" selectedImage:@"Home_Sel"];
     [self setupChildVc:[SecondViewController new] title:@"二页" image:@"BBS_Nor" selectedImage:@"BBS_Sel"];
     [self setupChildVc:[ThreeViewController new] title:@"三页" image:@"IWant_Nor" selectedImage:@"IWant_Sel"];
@@ -48,5 +49,9 @@
     OC_NavigationController *nav = [[OC_NavigationController alloc] initWithRootViewController:vc];
     [self addChildViewController:nav];
 }
-
+#pragma mark ======tabbarController点击事件======
+-(void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
+{
+    [KOC_Control animationWithIndex:tabBarController.selectedIndex viewController:viewController];
+}
 @end

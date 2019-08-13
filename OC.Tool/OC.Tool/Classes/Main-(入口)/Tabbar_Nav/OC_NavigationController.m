@@ -50,7 +50,7 @@
         button.size = CGSizeMake(25, 25);
         button.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0);
         button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
-        [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        [button setTitleColor:kRGBColor(51, 51, 51) forState:UIControlStateNormal];
         [button setTitleColor:[UIColor lightGrayColor] forState:UIControlStateHighlighted];
         [button addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
         viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:button];

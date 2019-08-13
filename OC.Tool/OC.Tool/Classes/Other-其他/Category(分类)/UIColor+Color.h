@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor *)colorWithHexString:(NSString *)stringToConvert AndAlpha:(CGFloat)alpha;
 //随机色
 + (UIColor *)randomColor;
+
 @end
 
 NS_ASSUME_NONNULL_END

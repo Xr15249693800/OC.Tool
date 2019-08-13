@@ -10,7 +10,7 @@
 #import "GuideCollectionViewController.h" //引导页
 
 
-@interface AppDelegate ()<UITabBarControllerDelegate>
+@interface AppDelegate ()
 
 @end
 
@@ -28,20 +28,18 @@
 ////    跳转到登录界面
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = UIColor.whiteColor;
-//    OC_NavigationController *nav = [[OC_NavigationController alloc]initWithRootViewController:[OC_TabBarController new]];
     OC_TabBarController *vc = [OC_TabBarController new];
-    vc.delegate = self;
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     
     return YES;
 }
 
-#pragma mark ======tabbarController点击事件======
--(void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
-{
-    [KOC_Control animationWithIndex:tabBarController.selectedIndex viewController:viewController];
-}
+//#pragma mark ======tabbarController点击事件======
+//-(void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
+//{
+//    [KOC_Control animationWithIndex:tabBarController.selectedIndex viewController:viewController];
+//}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

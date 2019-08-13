@@ -8,10 +8,11 @@
 
 #import "HomeViewController.h"
 #import "CyclePicView.h"
+#import "Home_menuView.h"
 
 @interface HomeViewController ()
 @property (nonatomic,strong)UIScrollView *mainScrollView;
-
+@property (nonatomic,strong)CyclePicView *cycleView;
 @end
 
 @implementation HomeViewController
@@ -24,6 +25,8 @@
     [self setupMainScrollView];
 //    广告位
     [self setupCycleView];
+//    菜单栏
+    [self setupMenuView];
   
 }
 
@@ -32,7 +35,7 @@
     
     UIScrollView *mainScroller = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, kWidth, kHeight)];
     [self.view addSubview:mainScroller];
-    mainScroller.backgroundColor = [UIColor redColor];
+    mainScroller.backgroundColor = kAPPBGCOLOR;
     self.mainScrollView = mainScroller;
 }
 #pragma mark ======广告位======
@@ -42,6 +45,13 @@
     cycleView.frame = CGRectMake(20, 10, kWidth - 40, 125);
     cycleView.layer.masksToBounds = YES;
     cycleView.layer.cornerRadius = 12.0;
+    self.cycleView = cycleView;
+}
+#pragma mark ======菜单栏======
+-(void)setupMenuView{
     
+    Home_menuView *menuView = [Home_menuView CreatHome_menuView];
+    menuView.frame = CGRectMake(0, CGRectGetMaxY(self.cycleView.frame)+15, kWidth, 70);
+    [self.mainScrollView addSubview:menuView];
 }
 @end
