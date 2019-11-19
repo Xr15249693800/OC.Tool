@@ -835,11 +835,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NJDUMK3XWM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-<<<<<<< HEAD
 				GCC_PREFIX_HEADER = "/Users/xueranit/mygithub/OC.Tool/OC.Tool/Classes/Other-其他/PrefixHeader.pch";
-=======
-				GCC_PREFIX_HEADER = "/Users/xueranit/Desktop/iOS移动/OC.Word/OC.Tool/OC.Tool/Classes/Other-其他/PrefixHeader.pch";
->>>>>>> master
 				INFOPLIST_FILE = OC.Tool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
