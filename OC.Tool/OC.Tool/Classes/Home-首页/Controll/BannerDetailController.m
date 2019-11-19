@@ -18,16 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self.navigationItem setTitleView:[KOC_Control createNavigationNormalTitle:@"广告详情"]];
+    NSLog(@"广告详情页");
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
