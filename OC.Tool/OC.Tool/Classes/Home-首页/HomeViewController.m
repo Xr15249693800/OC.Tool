@@ -28,6 +28,7 @@
     [self setupCycleView];
 //    菜单栏
     [self setupMenuView];
+//    AVPlayer 
   
 }
 
