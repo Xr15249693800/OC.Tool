@@ -887,6 +887,7 @@
 				DEVELOPMENT_TEAM = NJDUMK3XWM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/xueranit/myGit/OC.Tool/OC.Tool/OC.Tool/Classes/Other-其他/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/xueranit/mygithub/OC.Tool/OC.Tool/Classes/Other-其他/PrefixHeader.pch";
 				INFOPLIST_FILE = OC.Tool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -908,6 +909,7 @@
 				DEVELOPMENT_TEAM = NJDUMK3XWM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/xueranit/myGit/OC.Tool/OC.Tool/OC.Tool/Classes/Other-其他/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/xueranit/mygithub/OC.Tool/OC.Tool/Classes/Other-其他/PrefixHeader.pch";
 				INFOPLIST_FILE = OC.Tool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

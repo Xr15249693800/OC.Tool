@@ -9,6 +9,7 @@
 #import "HomeViewController.h"
 #import "CyclePicView.h"
 #import "Home_menuView.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface HomeViewController ()
 @property (nonatomic,strong)UIScrollView *mainScrollView;
@@ -27,6 +28,7 @@
     [self setupCycleView];
 //    菜单栏
     [self setupMenuView];
+//    AVPlayer 
   
 }
 
