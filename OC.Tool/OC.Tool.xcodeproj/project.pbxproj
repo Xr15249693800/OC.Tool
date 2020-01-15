@@ -18,6 +18,8 @@
 		8D23662E22FD73270015FF47 /* Const.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D23662D22FD73270015FF47 /* Const.m */; };
 		8D23F83A22F4288C00984FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D23F83922F4288C00984FF1 /* Assets.xcassets */; };
 		8D316FD222F9723B001F49A1 /* NetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D316FD122F9723B001F49A1 /* NetWorkTool.m */; };
+		8D653B2623C7058100525526 /* Draw.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D653B2523C7058100525526 /* Draw.xib */; };
+		8D653B2923C7058A00525526 /* Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D653B2823C7058A00525526 /* Draw.m */; };
 		8D6ECFBF22F7BA8800121478 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6ECFBD22F7BA8800121478 /* main.m */; };
 		8D6ECFC022F7BA8800121478 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6ECFBE22F7BA8800121478 /* AppDelegate.m */; };
 		8D6ECFC722F7BCF000121478 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6ECFC522F7BCF000121478 /* LoginViewController.m */; };
@@ -53,6 +55,13 @@
 		8D6ED03C22F8002000121478 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6ED03B22F8002000121478 /* SecondViewController.m */; };
 		8D6ED04122F800A900121478 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6ED04022F800A900121478 /* ThreeViewController.m */; };
 		8D6ED04422F800B600121478 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6ED04322F800B600121478 /* FourViewController.m */; };
+		8D793F9123CEAAD40093A115 /* DrawingBoardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D793F8F23CEAAD40093A115 /* DrawingBoardVC.m */; };
+		8D793F9223CEAAD40093A115 /* DrawingBoardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D793F9023CEAAD40093A115 /* DrawingBoardVC.xib */; };
+		8D793F9623CED56C0093A115 /* DrawBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D793F9523CED56C0093A115 /* DrawBoardView.m */; };
+		8D793F9923CEE6180093A115 /* DrawBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D793F9823CEE6180093A115 /* DrawBezierPath.m */; };
+		8D85F2F123CD5DBE003569DB /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D85F2F023CD5DBE003569DB /* UIImage+image.m */; };
+		8D85F2F623CDA27E003569DB /* GestureUnlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D85F2F423CDA27E003569DB /* GestureUnlockVC.m */; };
+		8D85F2F723CDA27E003569DB /* GestureUnlockVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D85F2F523CDA27E003569DB /* GestureUnlockVC.xib */; };
 		DEDC3A37DD1F36B770275666 /* libPods-OC.Tool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E43A0816ECF4523ECD60C6D /* libPods-OC.Tool.a */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +89,9 @@
 		8D316FD022F9723B001F49A1 /* NetWorkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkTool.h; sourceTree = "<group>"; };
 		8D316FD122F9723B001F49A1 /* NetWorkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkTool.m; sourceTree = "<group>"; };
 		8D316FD322F973B7001F49A1 /* NetApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetApi.h; sourceTree = "<group>"; };
+		8D653B2523C7058100525526 /* Draw.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Draw.xib; sourceTree = "<group>"; };
+		8D653B2723C7058A00525526 /* Draw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Draw.h; sourceTree = "<group>"; };
+		8D653B2823C7058A00525526 /* Draw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Draw.m; sourceTree = "<group>"; };
 		8D6ECFBC22F7BA8800121478 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D6ECFBD22F7BA8800121478 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D6ECFBE22F7BA8800121478 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -152,6 +164,18 @@
 		8D6ED04022F800A900121478 /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
 		8D6ED04222F800B600121478 /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
 		8D6ED04322F800B600121478 /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		8D793F8E23CEAAD40093A115 /* DrawingBoardVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingBoardVC.h; sourceTree = "<group>"; };
+		8D793F8F23CEAAD40093A115 /* DrawingBoardVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingBoardVC.m; sourceTree = "<group>"; };
+		8D793F9023CEAAD40093A115 /* DrawingBoardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrawingBoardVC.xib; sourceTree = "<group>"; };
+		8D793F9423CED56C0093A115 /* DrawBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawBoardView.h; sourceTree = "<group>"; };
+		8D793F9523CED56C0093A115 /* DrawBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawBoardView.m; sourceTree = "<group>"; };
+		8D793F9723CEE6180093A115 /* DrawBezierPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawBezierPath.h; sourceTree = "<group>"; };
+		8D793F9823CEE6180093A115 /* DrawBezierPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawBezierPath.m; sourceTree = "<group>"; };
+		8D85F2EF23CD5DBE003569DB /* UIImage+image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		8D85F2F023CD5DBE003569DB /* UIImage+image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+		8D85F2F323CDA27E003569DB /* GestureUnlockVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureUnlockVC.h; sourceTree = "<group>"; };
+		8D85F2F423CDA27E003569DB /* GestureUnlockVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureUnlockVC.m; sourceTree = "<group>"; };
+		8D85F2F523CDA27E003569DB /* GestureUnlockVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GestureUnlockVC.xib; sourceTree = "<group>"; };
 		BD452C2EB088E37DD23D7380 /* Pods-OC.Tool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OC.Tool.debug.xcconfig"; path = "Target Support Files/Pods-OC.Tool/Pods-OC.Tool.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -492,6 +516,8 @@
 		8D6ED03622F7FFD700121478 /* Second-(第二个页面) */ = {
 			isa = PBXGroup;
 			children = (
+				8D793F8823CEA8FE0093A115 /* 画板 */,
+				8D85F2F223CDA221003569DB /* 手势解锁 */,
 				8D6ED03A22F8002000121478 /* SecondViewController.h */,
 				8D6ED03B22F8002000121478 /* SecondViewController.m */,
 			);
@@ -512,8 +538,45 @@
 			children = (
 				8D6ED04222F800B600121478 /* FourViewController.h */,
 				8D6ED04322F800B600121478 /* FourViewController.m */,
+				8D653B2723C7058A00525526 /* Draw.h */,
+				8D653B2823C7058A00525526 /* Draw.m */,
+				8D653B2523C7058100525526 /* Draw.xib */,
+				8D85F2EF23CD5DBE003569DB /* UIImage+image.h */,
+				8D85F2F023CD5DBE003569DB /* UIImage+image.m */,
 			);
 			path = "Four-(第四个页面)";
+			sourceTree = "<group>";
+		};
+		8D793F8823CEA8FE0093A115 /* 画板 */ = {
+			isa = PBXGroup;
+			children = (
+				8D793F9323CED5260093A115 /* view */,
+				8D793F8E23CEAAD40093A115 /* DrawingBoardVC.h */,
+				8D793F8F23CEAAD40093A115 /* DrawingBoardVC.m */,
+				8D793F9023CEAAD40093A115 /* DrawingBoardVC.xib */,
+			);
+			path = "画板";
+			sourceTree = "<group>";
+		};
+		8D793F9323CED5260093A115 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8D793F9423CED56C0093A115 /* DrawBoardView.h */,
+				8D793F9523CED56C0093A115 /* DrawBoardView.m */,
+				8D793F9723CEE6180093A115 /* DrawBezierPath.h */,
+				8D793F9823CEE6180093A115 /* DrawBezierPath.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8D85F2F223CDA221003569DB /* 手势解锁 */ = {
+			isa = PBXGroup;
+			children = (
+				8D85F2F323CDA27E003569DB /* GestureUnlockVC.h */,
+				8D85F2F423CDA27E003569DB /* GestureUnlockVC.m */,
+				8D85F2F523CDA27E003569DB /* GestureUnlockVC.xib */,
+			);
+			path = "手势解锁";
 			sourceTree = "<group>";
 		};
 		AA6C0ECB09380B2211AE4D3B /* Pods */ = {
@@ -586,11 +649,14 @@
 			files = (
 				8D20AD6E23013D9B004D6BA4 /* Home_menuView.xib in Resources */,
 				8D23662722FD03450015FF47 /* CyclePicView.xib in Resources */,
+				8D85F2F723CDA27E003569DB /* GestureUnlockVC.xib in Resources */,
 				8D6ECFC822F7BCF000121478 /* LoginViewController.xib in Resources */,
+				8D793F9223CEAAD40093A115 /* DrawingBoardVC.xib in Resources */,
 				8D23F83A22F4288C00984FF1 /* Assets.xcassets in Resources */,
 				8D12A77022FBBC3300EE24A9 /* GuidCollectionViewCell.xib in Resources */,
 				8D6ED02B22F7DBC700121478 /* LICENSE in Resources */,
 				8D6ECFF422F7C96200121478 /* IQKeyboardManager.bundle in Resources */,
+				8D653B2623C7058100525526 /* Draw.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,6 +721,7 @@
 				8D6ED01B22F7D8FE00121478 /* UIView+Extension.m in Sources */,
 				8D6ECFFA22F7C96200121478 /* IQUIViewController+Additions.m in Sources */,
 				8D6ECFEF22F7C96200121478 /* IQToolbar.m in Sources */,
+				8D793F9123CEAAD40093A115 /* DrawingBoardVC.m in Sources */,
 				8D23662E22FD73270015FF47 /* Const.m in Sources */,
 				8D6ED03922F8001300121478 /* HomeViewController.m in Sources */,
 				8D6ECFF122F7C96200121478 /* IQBarButtonItem.m in Sources */,
@@ -663,8 +730,11 @@
 				8D6ED01522F7D66400121478 /* OC_NavigationController.m in Sources */,
 				8D6ECFF222F7C96200121478 /* IQUIView+IQKeyboardToolbar.m in Sources */,
 				8D6ED02322F7D92A00121478 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				8D653B2923C7058A00525526 /* Draw.m in Sources */,
 				8D6ECFBF22F7BA8800121478 /* main.m in Sources */,
 				8D6ED04122F800A900121478 /* ThreeViewController.m in Sources */,
+				8D85F2F623CDA27E003569DB /* GestureUnlockVC.m in Sources */,
+				8D793F9923CEE6180093A115 /* DrawBezierPath.m in Sources */,
 				8D23662B22FD5D480015FF47 /* BannerDetailController.m in Sources */,
 				8D6ED00D22F7D3B300121478 /* UIColor+Color.m in Sources */,
 				8D12A76F22FBBC3300EE24A9 /* GuidCollectionViewCell.m in Sources */,
@@ -676,6 +746,7 @@
 				8D6ED00322F7D0B300121478 /* KOC_Control.m in Sources */,
 				8D6ED02A22F7DBC700121478 /* MBProgressHUD.m in Sources */,
 				8D20AD6C23013D33004D6BA4 /* Home_menuView.m in Sources */,
+				8D793F9623CED56C0093A115 /* DrawBoardView.m in Sources */,
 				8D6ED03422F7FA3B00121478 /* TableViewAnimationKit.m in Sources */,
 				8D6ECFF822F7C96200121478 /* IQUIScrollView+Additions.m in Sources */,
 				8D6ECFEE22F7C96200121478 /* IQTextView.m in Sources */,
@@ -684,6 +755,7 @@
 				8D6ED03522F7FA3B00121478 /* UITableView+XSAnimationKit.m in Sources */,
 				8D6ECFC022F7BA8800121478 /* AppDelegate.m in Sources */,
 				8D6ECFC722F7BCF000121478 /* LoginViewController.m in Sources */,
+				8D85F2F123CD5DBE003569DB /* UIImage+image.m in Sources */,
 				8D6ED01222F7D5B400121478 /* OC_TabBarController.m in Sources */,
 				8D6ECFF322F7C96200121478 /* IQPreviousNextView.m in Sources */,
 				8D6ECFF622F7C96200121478 /* IQNSArray+Sort.m in Sources */,
@@ -814,7 +886,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NJDUMK3XWM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/xueranit/Desktop/iOS移动/OC.Word/OC.Tool/OC.Tool/Classes/Other-其他/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/xueranit/myGit/OC.Tool/OC.Tool/OC.Tool/Classes/Other-其他/PrefixHeader.pch";
 				INFOPLIST_FILE = OC.Tool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -835,7 +907,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NJDUMK3XWM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/xueranit/Desktop/iOS移动/OC.Word/OC.Tool/OC.Tool/Classes/Other-其他/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/xueranit/myGit/OC.Tool/OC.Tool/OC.Tool/Classes/Other-其他/PrefixHeader.pch";
 				INFOPLIST_FILE = OC.Tool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
